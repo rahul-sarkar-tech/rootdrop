@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="100" fill="#FF6B00"/>
+  
+  <!-- Subtle Gradient Overlay -->
+  <circle cx="256" cy="256" r="220" fill="white" fill-opacity="0.05"/>
+  
+  <!-- The Download Arrow -->
+  <path d="M200 50H312V220H400L256 364L112 220H200V50Z" fill="white"/>
+  
+  <!-- The P2P Branching Structure -->
+  <path d="M256 364V430" stroke="white" stroke-width="24" stroke-linecap="round"/>
+  
+  <!-- Left Node -->
+  <path d="M256 390C220 390 180 370 140 330" stroke="white" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <circle cx="120" cy="310" r="28" fill="white"/>
+  
+  <!-- Right Node -->
+  <path d="M256 390C292 390 332 370 372 330" stroke="white" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <circle cx="392" cy="310" r="28" fill="white"/>
+  
+  <!-- Small Bottom Left Node -->
+  <path d="M190 375C175 375 160 385 150 400" stroke="white" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <circle cx="140" cy="415" r="22" fill="white"/>
+  
+  <!-- Center Main Node -->
+  <circle cx="256" cy="390" r="32" fill="white"/>
+</svg>
